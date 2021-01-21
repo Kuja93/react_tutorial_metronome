@@ -30,11 +30,9 @@ class Metronome extends React.Component {
                 this.playClick,
                 (60 / this.state.bpm) * 1000
             );
-            this.setState(
-                {
+            this.setState({
                     count: 0,
                     playing: true
-                    // Play a click "immediately" (after setState finishes)
                 },
                 this.playClick
             );
