@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_tutorial_metronome/static/css/main.2c56c0aa.chunk.css",
+    "main.js": "/react_tutorial_metronome/static/js/main.da412119.chunk.js",
+    "main.js.map": "/react_tutorial_metronome/static/js/main.da412119.chunk.js.map",
+    "runtime-main.js": "/react_tutorial_metronome/static/js/runtime-main.9466a3b8.js",
+    "runtime-main.js.map": "/react_tutorial_metronome/static/js/runtime-main.9466a3b8.js.map",
+    "static/js/2.67aeab23.chunk.js": "/react_tutorial_metronome/static/js/2.67aeab23.chunk.js",
+    "static/js/2.67aeab23.chunk.js.map": "/react_tutorial_metronome/static/js/2.67aeab23.chunk.js.map",
+    "index.html": "/react_tutorial_metronome/index.html",
+    "static/css/main.2c56c0aa.chunk.css.map": "/react_tutorial_metronome/static/css/main.2c56c0aa.chunk.css.map",
+    "static/js/2.67aeab23.chunk.js.LICENSE.txt": "/react_tutorial_metronome/static/js/2.67aeab23.chunk.js.LICENSE.txt",
+    "static/media/click1.07cda4b8.wav": "/react_tutorial_metronome/static/media/click1.07cda4b8.wav",
+    "static/media/click2.5b5930c4.wav": "/react_tutorial_metronome/static/media/click2.5b5930c4.wav",
+    "static/media/joker.206ffd76.png": "/react_tutorial_metronome/static/media/joker.206ffd76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9466a3b8.js",
+    "static/js/2.67aeab23.chunk.js",
+    "static/css/main.2c56c0aa.chunk.css",
+    "static/js/main.da412119.chunk.js"
+  ]
+}
