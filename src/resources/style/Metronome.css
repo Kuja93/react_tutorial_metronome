@@ -1,23 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 body {
-    background: #7666b5;
+    background: #1b4a9b;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
 }
 
 .metronome {
     text-align: center;
     max-width: 375px;
-    margin: 0 auto;
+    margin: 20% auto;
     padding: 30px;
     border: 1px solid lightgray;
     border-radius: 5px;
-    background: #a898e8;
-    color: white;
+    background: white;
 }
 .bpm-container {
-    border: 1px solid;
     border-radius: 5px;
-    background: white;
-    color: black;
-    font-family: "Arial Black";
+    font-size: 55px;
+    padding: 35px;
 }
 .bpm-slider {
     font-size: 40px;
@@ -33,11 +41,11 @@ body {
 }
 
 .metronome button {
-    background: #721b9b;
+    cursor: pointer;
     padding: 10px;
-    border: 1px solid #8e4ce0;
-    width: 100px;
     color: #fff;
     font-size: 18px;
     border-radius: 5px;
+    width: 80%;
+    border: none;
 }

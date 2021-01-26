@@ -4,7 +4,8 @@ import '../resources/style/Metronome.css';
 
 import click1 from '../resources/sound/click1.wav';
 import click2 from '../resources/sound/click2.wav';
-import joker from '../resources/image/joker.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSkull, faPlay, faStop } from '@fortawesome/free-solid-svg-icons'
 
 class Metronome extends React.Component {
     constructor(props) {
@@ -66,10 +67,10 @@ class Metronome extends React.Component {
 
     render() {
         return (
-            <div className="metronome">
+            <div className="metronome" >
                 <div className="bpm-slider">
-                    <img className={"bpm-image"} src={joker} alt={"laugh_man"}/>
-                    <div className={"bpm-container"}>
+                    <FontAwesomeIcon icon={faSkull} size={"2x"}/>
+                     <div className={"bpm-container"}>
                         {this.state.bpm} BPM
                     </div>
                     <input
@@ -79,9 +80,14 @@ class Metronome extends React.Component {
                         value={this.state.bpm}
                         onChange={this.handleBpmChange}/>
                 </div>
-                <button onClick={this.startStop} >
-                    {this.state.playing ? 'Stop' : 'Start'}
-                </button>
+                {this.state.playing ?
+                    <button onClick={this.startStop} style={{backgroundColor: "#FF0000"}}>
+                        <FontAwesomeIcon icon={faStop} size={"2x"}/>
+                    </button> :
+                    <button onClick={this.startStop} style={{backgroundColor: "#1b9b4e"}}>
+                        <FontAwesomeIcon icon={faPlay} size={"2x"}/>
+                    </button>
+                }
             </div>
         )
     }
